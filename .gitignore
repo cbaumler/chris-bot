@@ -1,0 +1,5 @@
+# Screeps Config
+screeps.json
+
+# Ignore basic folders
+/node_modules
