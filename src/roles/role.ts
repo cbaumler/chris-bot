@@ -1,6 +1,10 @@
 export abstract class Role {
 
-    public abstract init(creep: Creep): void;
+    protected creep: Creep;
 
-	public abstract run(creep: Creep): void;
+    constructor(creep: Creep) {
+        this.creep = creep;
+    }
+
+    public abstract run(creep: Creep): void;
 }
